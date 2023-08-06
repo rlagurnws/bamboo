@@ -1,0 +1,75 @@
+<html lang="ko" class="h-100"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Cover Template · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.kr/docs/5.2/examples/cover/">
+    <link href="../css/index.css">
+    <script src="../js/post.js"></script>
+    
+
+    
+
+<link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/post.css">
+<!-- integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" -->
+    <!-- Favicons -->
+<!-- <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9"> -->
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto" style="margin-bottom: 20%!important;">
+    <div>
+      <h3 class="float-md-start mb-0">대나무 숲</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.html">Home</a>
+        <a id='my' class="nav-link fw-bold py-1 px-0 " href="mypage.html" >내 정보</a>
+        <a id='board' class="nav-link fw-bold py-1 px-0" href="list.html" >게시판</a>
+        <a id='logout' class="nav-link fw-bold py-1 px-0" href="#" >로그아웃</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id='main' class="px-3" style="text-align: left;">
+    <h2 id="title" style="float: left;"></h2>
+    <h5 id="name" style="float: right;"></h5>
+    <p id="p" class="lead" style="text-align: left; padding-top: 10px;">
+      <textarea id='content' style="height: auto; width: 100%; text-align: left;" class="btn btn-lg btn-secondary fw-bold border-white bg-white">
+      </textarea><br><br>
+    </p>
+    <!-- 댓글 어떻게 나오게 할건지 생각해봐라 -->
+    <h2 id="title2">댓글</h2>
+    <p id="p2" style="height: 50%; overflow: auto;">
+    </p>
+      <!-- <div class="btn btn-lg btn-secondary fw-bold border-white bg-white" style="width: 100%; text-align: left;">
+        <div id="name" style="height: auto; text-align: left;">
+          김혁준
+        </div>
+        <div id="content" style="float: left;">
+          test용 댓글입니다.
+        </div>
+        <svg id="like" color='black' xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16" style="float: right;">
+          <path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z"/>
+        </svg>
+      </div> -->
+    <button id="list" class="btn btn-lg btn-secondary fw-bold border-white bg-white">목록</button>
+    <button id="comment" class="btn btn-lg btn-secondary fw-bold border-white bg-white">댓글 작성</button>
+    <button id="modify" class="btn btn-lg btn-secondary fw-bold border-white bg-white" style="display: none;">수정</button>
+  <br><br>
+  <textarea id='com' placeholder="댓글을 작성하세요" style="height: auto; width: 100%; text-align: left;" class="btn btn-lg btn-secondary fw-bold border-white bg-white"></textarea>
+  </main>
+</body></html>
