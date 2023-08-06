@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.ValueGenerationType;
 
 import lombok.AllArgsConstructor;
@@ -31,6 +32,7 @@ public class CommentEntity {
 	private int commentId;
 	private String content;
 	@Temporal(TemporalType.TIMESTAMP)
+	@CreationTimestamp
 	private Date createdAt;
 	private int likeCnt;
 	private String userId;

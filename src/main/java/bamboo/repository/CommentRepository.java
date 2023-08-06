@@ -12,4 +12,5 @@ import bamboo.entity.CommentEntity;
 public interface CommentRepository extends CrudRepository<CommentEntity,Integer>{
 	
 	public List<CommentDTO> findByUserId(String id);
+	public List<CommentDTO> findByPostId(int no); 
 }

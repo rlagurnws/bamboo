@@ -31,10 +31,9 @@ public class UserController {
 		return service.dupCheck(id);
 	}
 	
-	//회원가입
+	//회원가입 및 수정
 	@PostMapping("/new")
 	public boolean signUp(UserDTO user) {
-		System.out.println(user);
 		return service.newUser(user);
 	}
 	
@@ -55,12 +54,6 @@ public class UserController {
 	@GetMapping
 	public UserDTO getUser(UserDTO user) {
 		return service.getOne(user.getId());
-	}
-	
-	//회원 수정
-	@PostMapping("/update")
-	public boolean update(UserDTO user) {
-		return service.newUser(user);
 	}
 	
 	//회원 탈퇴

@@ -20,6 +20,6 @@ public class CommentDTO {
 	private String content;
 	private Date createdAt;
 	private int likeCnt;
-	private String userName;
+	private String userId;
 	private int postId;
 }

@@ -1,7 +1,7 @@
 package bamboo.dto;
 
 import java.sql.Date;
-import java.util.ArrayList;
+import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,6 +22,6 @@ public class PostDTO {
 	private String content;
 	private int viewCnt;
 	private Date createdAt;
-	private String userName;
-	private ArrayList<CommentDTO> commentList;
+	private String userId;
+	private List<CommentDTO> commentList;
 }
